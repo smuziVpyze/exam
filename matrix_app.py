@@ -59,7 +59,7 @@ class MatrixApp:
             self.display_result(result)
         except Exception as e:
             messagebox.showerror("Ошибка", str(e))
-
+#исправлено
     def display_result(self, result):
         for i in range(4):
             for j in range(4):
